@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int sum(int a, int b)
+int sum(int i, int j)
 {
-    return a + b;
+    return i + j;
 }
 
 int main()
@@ -12,7 +12,7 @@ int main()
 
     printf("숫자 두 개를 입력하세요: ");
     scanf("%d %d", &a, &b);
-    printf("%d \n", sum(i, j));
+    printf("%d \n", sum(a, b));
 
     return 0;
 }
